@@ -1,0 +1,6 @@
+print("$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$")
+print("Hi")
+print("My name is Likhitha")
+print("I have completed my Bachelors degree at Dr.LB College of Engineering")
+print("Have a nice day")
+print("$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$")
