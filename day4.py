@@ -81,6 +81,14 @@ if user_choice % 2==0 :
 else :
     print(f"{user_choice} is odd number")
 '''
+num = int(input("enter number :"))
+if num ==0 :
+    print("positive")
+elif num <0 :
+    print("Negative")
+else:
+    print("positive")
+    
 
 
 
