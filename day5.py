@@ -71,9 +71,23 @@ if user=='a' or user=='e'or user=='i' or user=='o'or user=='u':
     print(f"{user} is a vowel")
 else:
     print(f"{user} is not a vowel")
+--------------
+Vowel_con = input("enter a letter:")
+
+if Vowel_con in "AEIOUaeiou":
+    print("vow")
+else:
+    print("con")
+------------------------------
+
+Time_aday = input("enter 24hrs time:")
+parts_ = Time_aday.split(":")
+hours_ = int(parts_[0])
+min_ = int(parts_[1])
+if hours_ >=13 and min_ <60:
+    print(f"{Time_aday} converted into {hours_- 12}:{min_}pm")
+
 '''
-
-
 
 
 
