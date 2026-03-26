@@ -28,7 +28,9 @@ num_2 = 90
 print(f" before swapping {num, num_2}")
 num,num_2=num_2,num
 print(f" after swapping{num, num_2}")
- '''
+
+leap year:
+---------
 leap_year = int(input("enter year:"))
 if (leap_year % 4 ==0 and leap_year % 100!=0) or leap_year % 400 == 0:
     print(f" yes,{leap_year} is a leap year")
