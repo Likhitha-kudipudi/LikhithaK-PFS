@@ -31,4 +31,32 @@ print(set_1.difference(set_2))
 print(set_2.difference(set_1))
 set_1.pop()
 print(set_1)
+
+any_ = "python is a programming language"
+vowel_ = 0
+space_ = 0
+cou_= 0
+for j in any_:
+    if j in "AEIOUaeiou":
+        vowel_ += 1
+    elif j == " ":
+         space_ += 1
+    else :
+        cou_ += 1
+print(vowel_,space_,cou_)
+
+
+
+any_ = "python is a programming language"
+vowel_ = 0
+space_ = 0
+for j in any_:
+    if j in "AEIOUaeiou":
+        vowel_ += 1
+    elif j == " ":
+         space_ += 1
+print(f"This is the count of all vowel in the string {vowel_}")
+print(f"This is the count of all space in the string {space_}")
+print(f"This is count of all cons_ in the string {len(any_)- (vowel_ + space_ )}")
+
  
