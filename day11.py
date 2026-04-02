@@ -20,7 +20,7 @@ an = "pyThon Is a prograMming languAge "
 cap_l = []
 small_l = []
 for ch in an :
-    if ch.isupper():
+    if ch.isupper():zsa
         cap_l.append(ch)
     elif ch.islower():
         small_l.append(ch)
