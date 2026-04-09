@@ -46,7 +46,7 @@ num =1
 while num<5:
     print(num)
     num +=1
-'''
+    
 user_in = int(input("Enter the limit :"))
 num_1 = 0
 num_2 = 1
@@ -56,6 +56,8 @@ for v in range(user_in + 1 ) :
     num_1 = num_2
     num_2 = num_3
     print(num_3,end =" ")
+'''
+
     
 
 
