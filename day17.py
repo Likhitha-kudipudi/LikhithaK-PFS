@@ -42,7 +42,7 @@ syntax :
 
 
 old_list = [1,2,3,4,5]
-new_list = [j for j in old_list if j % 2 ==0]
+new_list = [j for j in old_list if j % 2 ==0 ]
 print(new_list)
 
 
